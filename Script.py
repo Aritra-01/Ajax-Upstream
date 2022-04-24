@@ -107,7 +107,7 @@ Helps you to know your ping 🚶🏼‍♂️
 • /alive - To check you are alive.
 • /help - To get help.
 • /ping - To get your ping.
-• /repo - Source Code.
+• /unmesh - Channel link.
 • /channel - Channel Details.
 • /ajax - Bot Link.
 <b>🏹Usage🏹 :</b>
