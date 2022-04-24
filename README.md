@@ -66,7 +66,7 @@ You can deploy this bot anywhere.
 </p>
 
 <a href="https://t.me/HoiChoiTvAddaa">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=telegram" width="147">
+  <img src="https://img.shields.io/badge/JOIN-red?logo=telegram" width="147">
 </a><br>
 
 <details><summary>Deploy To VPS</summary>
