@@ -2,18 +2,18 @@
   <img src="https://telegra.ph/file/89e6769b723b5a7aa66d0.jpg" alt="Ajax-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
-  <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
+  <b>𝙰𝙹𝙰𝚇 UPSTREAM</b>
 </h1>
 
 <a href="https://t.me/HoiChoiTvAddaa">
-  <img src="https://img.shields.io/badge/JOIN-black?logo=youtube" width="150">
+  <img src="https://img.shields.io/badge/JOIN-black?logo=telegram" width="150">
 
 
-[![Stars](https://img.shields.io/github/stars/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/stargazers)
-[![Forks](https://img.shields.io/github/forks/Aadhi000/Ajax-Extra-Features?style=flat-square&color=blue)](https://github.com/Aadhi000/Ajax-Extra-Features/fork)
-[![Size](https://img.shields.io/github/repo-size/Aadhi000/Ajax-Extra-Features?style=flat-square&color=red)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Contributors](https://img.shields.io/github/contributors/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/graphs/contributors)
+[![Stars](https://img.shields.io/github/stars/Aritra-01/Ajax-Upstream?style=flat-square&color=green)](https://github.com/Aritra-01/Ajax-Upstream/stargazers)
+[![Forks](https://img.shields.io/github/forks/Aritra-01/Ajax-Upstream?style=flat-square&color=blue)](https://github.com/Aritra-01/Ajax-Upstream/fork)
+[![Size](https://img.shields.io/github/repo-size/Aritra-01/Ajax-Upstream?style=flat-square&color=red)](https://github.com/Aritra-01/Ajax-Upstream)   
+[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Aritra-01/Ajax-Upstream)   
+[![Contributors](https://img.shields.io/github/contributors/Aritra-01/Ajax-Upstream-Features?style=flat-square&color=green)](https://github.com/Aritra-01/Ajax-Upstream/graphs/contributors)
 ## Features
 
 - [x] Auto Filter
@@ -60,19 +60,19 @@ You can deploy this bot anywhere.
 <summary>Deploy To Heroku</summary>
 <br>
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/Aadhi000/Ajax-Extra-Featurez">
+<a href="https://heroku.com/deploy?template=https://github.com/Aritra-01/Ajax-Upstream">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
 
-<a href="https://youtu.be/kB9TkCs8cX0">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
+<a href="https://t.me/HoiChoiTvAddaa">
+  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=telegram" width="147">
 </a><br>
 
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax-Extra-Features
+git clone https://github.com/Aritra-01/Ajax-Upstream
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
