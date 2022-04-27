@@ -11,7 +11,7 @@ from plugins.helper_functions.cust_p_filters import f_onw_fliter
 ALIVE = "You are not dead. You are still here. You have no love for me now. Well, you're not changed..😔 Sometimes but nothing /start Do it and see..🙂" 
 UNMESH = "<b>উন্মেষ Channel LINK ›› https://t.me/HoiChoiTvAddaa</b>"
 CHANNEL = "<b>জলতরঙ্গ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻</b> ›› https://t.me/Joltorongo\n\n<b>𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› https://t.me/HoiChoiTvAddaa</b>\n\n<b>GROUP ›› https://t.me/HoiChoi_Group</b>"
-AJAX = "<b>𝙱𝙾𝚃 ›› <a href=https://t.me/{}>{}</a></b>"
+JOLTORONGO = "<b>জলতরঙ্গ link ›› <a href=https://t.me/Joltorongo</a></b>"
 # -- Constants End -- #
 
 
@@ -39,13 +39,13 @@ async def group(_, message):
     await message.reply_text(GROUP)
 
 
-@Client.on_message(filters.command("channel", COMMAND_HAND_LER) & f_onw_fliter)
+@Client.on_message(filters.command("channel", COMMAND_HAND_LER) & f_onw_fliter)joltorongo
 async def channel(_, message):
     await message.reply_text(CHANNEL)
 
 
-@Client.on_message(filters.command("ajax", COMMAND_HAND_LER) & f_onw_fliter)
-async def ajax(_, message):
-    await message.reply_text(AJAX)
+@Client.on_message(filters.command("joltorongo", COMMAND_HAND_LER) & f_onw_fliter)
+async def joltorongo(_, message):
+    await message.reply_text(JOLTORONGO)
 
 
