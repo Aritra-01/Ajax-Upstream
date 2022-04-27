@@ -109,7 +109,7 @@ Helps you to know your ping 🚶🏼‍♂️
 • /ping - To get your ping.
 • /unmesh - Channel link.
 • /channel - Channel Details.
-• /ajax - Bot Link.
+• /joltorongo - জলতরঙ্গ Link.
 <b>🏹Usage🏹 :</b>
 
 • This commands can be used in pms and groups
