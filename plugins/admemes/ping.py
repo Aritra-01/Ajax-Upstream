@@ -39,7 +39,7 @@ async def group(_, message):
     await message.reply_text(GROUP)
 
 
-@Client.on_message(filters.command("channel", COMMAND_HAND_LER) & f_onw_fliter)joltorongo
+@Client.on_message(filters.command("channel", COMMAND_HAND_LER) & f_onw_fliter)
 async def channel(_, message):
     await message.reply_text(CHANNEL)
 
