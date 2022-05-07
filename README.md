@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/89e6769b723b5a7aa66d0.jpg" alt="Ajax-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
-  <b>𝙰𝙹𝙰𝚇 UPSTREAM</b>
+  <b>Unmesh UPSTREAM</b>
 </h1>
 
 <a href="https://t.me/HoiChoiTvAddaa">
@@ -36,7 +36,7 @@
 - [x] Sticker ID Generator
 - [x] COVID Information
 - [x] File Store
-- ⚜️ Image Editor
+ ⚜️ Image Editor
 
 ## Variables
 
