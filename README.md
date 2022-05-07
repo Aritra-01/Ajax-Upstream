@@ -36,7 +36,7 @@
 - [x] Sticker ID Generator
 - [x] COVID Information
 - [x] File Store
-- [X] Image Editor
+- ⚜️ Image Editor
 
 ## Variables
 
