@@ -16,27 +16,27 @@
 [![Contributors](https://img.shields.io/github/contributors/Aritra-01/Ajax-Upstream-Features?style=flat-square&color=green)](https://github.com/Aritra-01/Ajax-Upstream/graphs/contributors)
 ## Features
 
-- [x] Auto Filter
-- [x] Manual Filter
-- [x] IMDB
-- [x] Admin Commands
-- [x] Broadcast
-- [x] Index
-- [x] IMDB search
-- [x] Inline Search
-- [x] Random pics
-- [x] ids and User info 
-- [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
-- [x] Spelling Check Feature
-- [x] Youtube Video , Song , Thumbnail Download.
-- [x] Image Edit.
-- [x] Google Translator.
-- [x] Telegraph
-- [x] Entertainment
-- [x] Sticker ID Generator
-- [x] COVID Information
-- [x] File Store
- ⚜️ Image Editor
+- [⚜️] Auto Filter
+- ⚜️ Manual Filter
+- ⚜️ IMDB
+- ⚜️ Admin Commands
+- ⚜️ Broadcast
+- ⚜️ Index
+- ⚜️ IMDB search
+- ⚜️ Inline Search
+- ⚜️ Random pics
+- ⚜️ ids and User info 
+- ⚜️ Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
+- ⚜️ Spelling Check Feature
+- ⚜️ Youtube Video , Song , Thumbnail Download.
+- ⚜️ Image Edit.
+- ⚜️ Google Translator.
+- ⚜️ Telegraph
+- ⚜️ Entertainment
+- ⚜️ Sticker ID Generator
+- ⚜️ COVID Information
+- ⚜️ File Store
+- ⚜️ Image Editor
 
 ## Variables
 
