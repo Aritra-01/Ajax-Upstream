@@ -16,7 +16,7 @@
 [![Contributors](https://img.shields.io/github/contributors/Aritra-01/Ajax-Upstream-Features?style=flat-square&color=green)](https://github.com/Aritra-01/Ajax-Upstream/graphs/contributors)
 ## Features
 
-- [⚜️] Auto Filter
+- ⚜️ Auto Filter
 - ⚜️ Manual Filter
 - ⚜️ IMDB
 - ⚜️ Admin Commands
