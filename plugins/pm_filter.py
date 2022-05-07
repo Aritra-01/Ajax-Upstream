@@ -10,7 +10,7 @@ from database.connections_mdb import active_connection, all_connections, delete_
 from info import ADMINS, AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, AUTH_GROUPS, P_TTI_SHOW_OFF, IMDB, \
     SINGLE_BUTTON, SPELL_CHECK_REPLY, IMDB_TEMPLATE
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
-from pyrogram import Client, filters
+from pyrogram import Client, filters, types
 from pyrogram.errors import FloodWait, UserIsBlocked, MessageNotModified, PeerIdInvalid
 from utils import get_size, is_subscribed, get_poster, search_gagala, temp, get_settings, save_group_settings
 from database.users_chats_db import db
@@ -114,11 +114,15 @@ async def give_filter(client,message):
 
             if btn is not None:
                 try:
+                    common_btns = [
+                        types.InlineKeyboardButton("Check Bot PM", url=f"https://t.me/{(await client.get_me()).username}")
+                    ]
                     if fileid == "None":
                         if btn == "[]":
-                            await message.reply_text(reply_text, disable_web_page_preview=True)
+                            await message.reply_text(reply_text, disable_web_page_preview=True, reply_markup=types.InlineKeyboardMarkup([common_btns]))
                         else:
                             button = eval(btn)
+                            button.insert(0, common_btns)
                             await message.reply_text(
                                 reply_text,
                                 disable_web_page_preview=True,
@@ -126,13 +130,17 @@ async def give_filter(client,message):
                             )
                     elif btn == "[]":
                         await message.reply_cached_media(
-                            fileid,
-                            caption=reply_text or ""
+#                             fileid,
+                            "AgACAgUAAxkBAAEDhB5idsCXJju2iPB0jLbnS1QxImUZ4gACvK0xG2LiuVcWpBkK7RQmjQAIAQADAgADeQAHHgQ",
+                            caption=reply_text or "",
+                            reply_markup=types.InlineKeyboardMarkup([common_btns])
                         )
                     else:
-                        button = eval(btn) 
+                        button = eval(btn)
+                        button.insert(0, common_btns)
                         await message.reply_cached_media(
-                            fileid,
+#                             fileid,
+                            "AgACAgUAAxkBAAEDhB5idsCXJju2iPB0jLbnS1QxImUZ4gACvK0xG2LiuVcWpBkK7RQmjQAIAQADAgADeQAHHgQ",
                             caption=reply_text or "",
                             reply_markup=InlineKeyboardMarkup(button)
                         )
@@ -245,8 +253,17 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌')
-            await asyncio.sleep(10)
+            txt_ = """
+নমস্কার, আপনি শুধু Movie/Series নাম টাইপ করুন। (. , " : _ ; ' - Symbols বাদ দিয়ে) এর জন্য <b><a href=www.google.co.in>ＧⓄ𝐨𝕘𝐋𝕖</a></b> এর সাহায্য নিন।
+আপনি Movie/Series পান নি কারণ আপনি হয় ভুল বানান লিখেছেন অথবা আপনার অনুরোধ করা Movie/Series জলতরঙ্গ database এ আপাতত নেই। 🙃
+যদি আপনার মনে হয় আপনি ঠিক নাম লিখেও digitally released movie/series এর file পারছেন না তাহলে <a href=https://t.me/HOICHOI_GROUP>উন্মেষ</a> অথবা <a href=https://t.me/cinemarduniyaa>সিনেমায় দুনিয়া</a> তে correct format (Movie/Series Name+Year+Resolution) এ request করতে পারেন
+"""
+            k = await query.message.edit(
+                txt_,
+                parse_mode="html",
+                disable_web_page_preview=True
+            )
+            await asyncio.sleep(1800)
             await k.delete()
 
 
