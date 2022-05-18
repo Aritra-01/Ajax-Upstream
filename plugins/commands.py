@@ -44,11 +44,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/joltorongo'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/HoiChoiTvAddaa')
+            InlineKeyboardButton('🔱 CHΛИИΞL 🔱', url='https://t.me/joltorongo'),
+            InlineKeyboardButton('🔱 UᎮDΛTΞS 🔱', url='https://t.me/HoiChoiTvAddaa')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('💢 HΞLᎮ 💢', callback_data='help'),
+            InlineKeyboardButton('💢 ΛBOUT 💢', callback_data='about')
             ],[
             InlineKeyboardButton('✅ JOIN ✅', url='https://t.me/HOICHOI_GROUP')
         ]]         
@@ -87,11 +87,11 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/joltorongo'),
-            InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/HoiChoiTvAddaa')
+            InlineKeyboardButton('🔱 CHΛИИΞL 🔱', url='https://t.me/joltorongo'),
+            InlineKeyboardButton('🔱 UᎮDΛTΞS 🔱', url='https://t.me/HoiChoiTvAddaa')
             ],[      
-            InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
+            InlineKeyboardButton('💢 HΞLᎮ 💢', callback_data='help'),
+            InlineKeyboardButton('💢 ΛBOUT 💢', callback_data='about')
             ],[
             InlineKeyboardButton('✅ JOIN ✅', url='https://t.me/HOICHOI_GROUP')
         ]]
