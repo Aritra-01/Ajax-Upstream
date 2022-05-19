@@ -139,6 +139,7 @@ async def vsong(client, message: Message):
     file_stark = f"{ytdl_data['id']}.mp4"
     capy = f"""
 **𝚃𝙸𝚃𝙻𝙴 :** [{thum}]({mo})
+**JOIN ›› [HoiChoi Group](https://t.me/HoiChoi_Group)**\n**𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ›› [উন্মেষ](https://t.me/HoiChoiTvAddaa)**
 **𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 :** {message.from_user.mention}
 """
     await client.send_video(
